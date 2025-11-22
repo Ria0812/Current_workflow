@@ -14,3 +14,6 @@ jobs:
         run: echo "Hello GitHub Actions!"
       - name: Print event name
         run: echo "Event Trigger:${{ github.event_name }}"
+      - name: Print full event context
+        run: echo "${{ toJson(github) }}"
+
