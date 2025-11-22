@@ -13,4 +13,4 @@ jobs:
       - name: Print Hello
         run: echo "Hello GitHub Actions!"
       - name: Print event name
-        run: echo "Event Trigger: ${{ github.event_name }}"
+        run: echo "Event Trigger:${{ github.event_name }}"
